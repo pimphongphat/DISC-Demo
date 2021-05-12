@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="350" height="310"
+style="border:1px solid #c3c3c3;">
+Your browser does not support the canvas element.
+</canvas>
+
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+
+ctx.fillStyle = "#000000";
+ctx.font = "16px Arial";
+ctx.fillText("Dominance", 5, 18);
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(0,25,150,30);
+
+ctx.fillStyle = "#000000";
+ctx.font = "16px Arial";
+ctx.fillText("Influence", 5, 95);
+ctx.fillStyle = "#00FF00";
+ctx.fillRect(0,105,200,30);
+
+ctx.fillStyle = "#000000";
+ctx.font = "16px Arial";
+ctx.fillText("Compliance", 5, 180);
+ctx.fillStyle = "#0000FF";
+ctx.fillRect(0,185,300,30);
+
+ctx.fillStyle = "#000000";
+ctx.font = "16px Arial";
+ctx.fillText("Steadiness", 5, 255);
+ctx.fillStyle = "#FFA500";
+ctx.fillRect(0,265,300,30);
+
+</script>
+
+</body>
+</html>
+
+---------------------------------
+
+https://www.w3schools.com/graphics/canvas_text.asp
+
